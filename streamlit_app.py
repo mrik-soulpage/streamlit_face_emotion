@@ -28,7 +28,8 @@ def overlay_text_on_frame(frame, texts):
 def facesentiment():
     # st.title("Real-Time Facial Analysis with Streamlit")
     # Create a VideoCapture object
-    cap = cv2.VideoCapture(0)
+    # cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture("./facial_expressions.mp4")
     stframe = st.image([])  # Placeholder for the webcam feed
 
     while True:

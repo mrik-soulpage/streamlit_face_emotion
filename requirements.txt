@@ -1,4 +1,5 @@
+opencv-contrib-python-headless
 streamlit
-opencv-python
+streamlit_webrtc
 numpy
 deepface

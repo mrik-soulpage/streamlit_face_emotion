@@ -1,5 +1,10 @@
+tf-keras
+pyQt5
+portalocker
+opencv-python
+opencv-contrib-python-headless
 opencv-python-headless
 streamlit
 streamlit_webrtc
-numpy
+numpy<1.25
 deepface
